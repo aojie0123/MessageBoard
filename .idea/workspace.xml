@@ -15,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -22,6 +23,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -34,6 +36,17 @@
             <path>
               <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
               <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -73,12 +86,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557318762120</updated>
-      <workItem from="1557318764917" duration="82000" />
+      <workItem from="1557318764917" duration="346000" />
     </task>
+    <task id="LOCAL-00001" summary="new Project">
+      <created>1557318906327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557318906327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82000" />
+    <option name="totallyTimeSpent" value="346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -117,5 +138,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Project" />
   </component>
 </project>
