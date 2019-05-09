@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <html>
 	<head>
 		<title>登录</title>
@@ -17,17 +18,18 @@
 			<div class="header">
 				<h1>
 					<a href="">登录</a>
-					<a href="">注册</a>
+					<a href="${pageContext.request.contextPath}/RegistServlet?type=showPage">注册</a>
 				</h1>
+				<font color="red" style="font-size: 12px;">${msg}</font>
 				<button></button>
 			</div>
 			<form action="" method="post">
-				<div class="name">
-					<input type="text" id="name" name="username" placeholder="请输入登录用户名">
+				<div class="username">
+					<input type="text" id="username" username="username" placeholder="请输入登录用户名">
 					<p></p>
 				</div>
 				<div class="pwd">
-					<input type="password" id="pwd" name="password" placeholder="6-16位密码，区分大小写，不能用空格">
+					<input type="password" id="pwd" username="password" placeholder="6-16位密码，区分大小写，不能用空格">
 					<p></p>
 				</div>
 				<div class="idcode">

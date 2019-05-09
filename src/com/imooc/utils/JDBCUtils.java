@@ -64,4 +64,24 @@ public class JDBCUtils {
         }
     }
 
+    public static void release(PreparedStatement pstm, Connection con) {
+        if (pstm != null) {
+            try {
+                pstm.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            pstm = null;
+        }
+
+        if (con != null) {
+            try {
+                con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            con = null;
+        }
+    }
+
 }

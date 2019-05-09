@@ -21,11 +21,12 @@
                 <a href="">登录</a>
                 <a href="">注册</a>
             </h1>
+            <font color="red">${msg}</font>
             <button></button>
         </div>
-        <form action="" method="post">
-            <div class="name">
-                <input type="text" id="name" name="name" placeholder="请输入用户名">
+        <form action="${pageContext.request.contextPath}/RegistServlet?type=regist" method="post">
+            <div class="username">
+                <input type="text" id="username" name="username" placeholder="请输入用户名">
                 <p></p>
             </div>
             <div class="pwd">
@@ -33,7 +34,7 @@
                 <p></p>
             </div>
             <div class="confirm-pwd">
-                <input type="password" id="pwd2" placeholder="确认密码">
+                <input type="password" id="pwd2" name="confirmPass" placeholder="确认密码">
                 <p></p>
             </div>
             <div class="idcode">

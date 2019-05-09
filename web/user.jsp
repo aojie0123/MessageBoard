@@ -18,7 +18,7 @@
         </nav>
         <div class="container">
             <div class="jumbotron">
-                <h1>Hello, ${user.name}!</h1>
+                <h1>Hello, ${user.username}!</h1>
                 <p>信息都在这里了 ^_^</p>
             </div>
             <div class="page-header">
@@ -27,15 +27,15 @@
              <form class="form-horizontal" action="" method="post">
                
                 <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">用户 ：</label>
+                    <label for="username" class="col-sm-2 control-label">用户 ：</label>
                     <div class="col-sm-6">
-                        <input name="name" class="form-control" id="name" value="" readonly>
+                        <input username="username" class="form-control" id="username" value="" readonly>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-2 control-label">密码 ：</label>
                     <div class="col-sm-6">
-                        <input name="password" class="form-control" id="password" value="">
+                        <input username="password" class="form-control" id="password" value="">
                     </div>
                 </div>
                
