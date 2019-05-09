@@ -1,16 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: aojie
-  Date: 2019/5/8
-  Time: 20:32
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+	<head>
+		<title>MessageBoard</title>
+		<!-- meta标签的作用是：访问index.jsp页面时会跳转到MessageServlet -->
+		<meta http-equiv='refresh' content='0;url=<%=request.getContextPath()%>/MessageServlet'>
+		<!-- 定义MessageServlet，查询所有信息，然后跳转到message_list.jsp显示所有留言 -->
+	</head>
 </html>
