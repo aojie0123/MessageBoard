@@ -4,9 +4,9 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class JDBCUtils {
 
@@ -31,12 +31,9 @@ public class JDBCUtils {
 
     /**
      * 释放资源
-     * @param rs
-     * @param pstm
-     * @param con
      */
-    public static void release(ResultSet rs, PreparedStatement pstm, Connection con) {
-        if (rs != null) {
+    public static void release(ResultSet rs, Statement stmt, Connection conn){
+        if(rs != null){
             try {
                 rs.close();
             } catch (SQLException e) {
@@ -44,43 +41,40 @@ public class JDBCUtils {
             }
             rs = null;
         }
-
-        if (pstm != null) {
+        if(stmt != null){
             try {
-                pstm.close();
+                stmt.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            pstm = null;
+            stmt = null;
         }
-
-        if (con != null) {
+        if(conn != null){
             try {
-                con.close();
+                conn.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            con = null;
+            conn = null;
         }
     }
 
-    public static void release(PreparedStatement pstm, Connection con) {
-        if (pstm != null) {
+    public static void release(Statement stmt,Connection conn){
+        if(stmt != null){
             try {
-                pstm.close();
+                stmt.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            pstm = null;
+            stmt = null;
         }
-
-        if (con != null) {
+        if(conn != null){
             try {
-                con.close();
+                conn.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            con = null;
+            conn = null;
         }
     }
 

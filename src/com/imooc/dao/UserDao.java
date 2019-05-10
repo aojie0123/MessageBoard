@@ -6,4 +6,6 @@ public interface UserDao {
     String regist(User user);
 
     boolean isRegisted(User user);
+
+    User login(User user);
 }

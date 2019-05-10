@@ -34,7 +34,7 @@ public class RegistServlet extends HttpServlet {
     }
 
     private void regist(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("name");
+        String name = request.getParameter("username");
         String password = request.getParameter("password");
         String confirmPass = request.getParameter("confirmPass");
 
@@ -45,7 +45,9 @@ public class RegistServlet extends HttpServlet {
             user.setUsername(name);
             user.setPassword(password);
             msg = userService.regist(user);
-            System.out.println(msg);
+            if ("success".equals(msg)) {
+                request.getRequestDispatcher("/LoginServlet?method=showPage").forward(request, response);
+            }
         } else {
             request.setAttribute("msg", "两次密码不同，请重新输入密码");
             request.getRequestDispatcher("/reg.jsp").forward(request, response);

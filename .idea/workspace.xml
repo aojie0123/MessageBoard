@@ -7,28 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aed786c9-d677-476f-a5e3-8109828a0b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/JDBCUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageBoard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBoard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/utils/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/filter/CharsetEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/filter/CharsetEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/add_message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/add_message.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/edit_message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/edit_message.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/edit_user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/edit_user.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sql1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,74 +38,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+            <state relative-caret-position="274">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/message_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-            </state>
+            <state relative-caret-position="-891" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -120,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="494">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,38 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="171">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/utils/JDBCUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/reg.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="244">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -190,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/com/imooc/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/AddEditMessageServlet.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/MessageDao.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/MessageD.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/MessageDaoImpl.java" />
@@ -198,18 +128,20 @@
         <option value="$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceIm.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/filter/CharsetEncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/domain/User.java" />
         <option value="$PROJECT_DIR$/web/reg.jsp" />
-        <option value="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/JDBCUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/imooc/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -257,14 +189,7 @@
               <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
@@ -272,6 +197,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
@@ -314,26 +240,19 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MessageBoard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MessageBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -343,6 +262,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2018.2.5\JavaProject\MessageBoard\web\WEB-INF\lib" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\MessageBoard\web\WEB-INF\lib" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\MessageBoard\web" />
     </key>
@@ -359,7 +279,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat9">
+    <configuration name="JDBCUtilsTest.getConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MessageBoard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.JDBCUtilsTest" />
+      <option name="METHOD_NAME" value="getConnectionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -434,6 +370,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCUtilsTest.getConnectionTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -448,7 +389,9 @@
       <workItem from="1557318764917" duration="414000" />
       <workItem from="1557328054561" duration="373000" />
       <workItem from="1557369005489" duration="10328000" />
-      <workItem from="1557386040407" duration="7462000" />
+      <workItem from="1557386040407" duration="7598000" />
+      <workItem from="1557450166885" duration="3098000" />
+      <workItem from="1557466836712" duration="12057000" />
     </task>
     <task id="LOCAL-00001" summary="new Project">
       <created>1557318906327</created>
@@ -471,16 +414,53 @@
       <option name="project" value="LOCAL" />
       <updated>1557373069324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project file">
+      <created>1557396155693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557396155700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 23m 40s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 25m 23s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 27m 23s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 29m 04s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 31m 25s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 38m 14s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 39m 21s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 39m 44s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCUtilsTest_getConnectionTest - 2019.05.10 at 15h 40m 00s.xml">
+      <configuration name="JDBCUtilsTest.getConnectionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18577000" />
+    <option name="totallyTimeSpent" value="33868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892703" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +471,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,20 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/MessageD.java" />
     <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/MessageDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,9 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sql1.sql" />
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -584,21 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/filter/CharsetEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -613,82 +562,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
             <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/reg.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="513">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/JDBCUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="114">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        <state relative-caret-position="540">
+          <caret line="48" column="105" selection-start-line="48" selection-start-column="105" selection-end-line="48" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/filter/UserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="494">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -697,25 +652,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="268">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
