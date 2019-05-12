@@ -27,7 +27,19 @@ public class MessageServlet extends HttpServlet {
             showAllMsg(request, response);
         } else if (method.equals("getMyMessage")) {
             getMyMessage(request, response);
+        } else if (method.equals("edit")) {
+            edit(request, response);
         }
+    }
+
+    private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int mid = Integer.parseInt(request.getParameter("mid"));
+        MessageService messageService = new MessageServiceImpl();
+
+        Message message = messageService.findOne(mid);
+        request.setAttribute("user", (User) request.getSession().getAttribute("loginUser"));
+        request.setAttribute("message", message);
+        request.getRequestDispatcher("/edit_message.jsp").forward(request, response);
     }
 
     private void getMyMessage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

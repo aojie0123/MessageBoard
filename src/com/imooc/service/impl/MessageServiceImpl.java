@@ -20,4 +20,10 @@ public class MessageServiceImpl implements MessageService {
         MessageDao messageDao = new MessageDaoImpl();
         return messageDao.findAllMessage();
     }
+
+    @Override
+    public Message findOne(int mid) {
+        MessageDao messageDao = new MessageDaoImpl();
+        return messageDao.findOne(mid);
+    }
 }

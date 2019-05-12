@@ -9,4 +9,6 @@ public interface MessageService {
     List<Message> findMyMessage(User loginUser);
 
     List<Message> findAllMessage();
+
+    Message findOne(int mid);
 }

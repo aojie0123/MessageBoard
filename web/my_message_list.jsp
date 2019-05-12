@@ -54,7 +54,7 @@
                         <div align="right">
                             <table>
                                 <tr><td>   
-                                        <button class="btn btn-primary" type="submit">修改</button>                                
+                                        <a class="btn btn-primary" type="submit" href="${pageContext.request.contextPath}/MessageServlet?method=edit&mid=${message.mid}" style="margin-right: 5px;">修改</a>
                                 </td>
                                 <td>
                                         <button class="btn btn-primary" type="submit">删除</button>                                  

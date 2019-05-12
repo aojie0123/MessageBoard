@@ -58,4 +58,26 @@ public class MessageDaoImpl implements MessageDao {
         }
         return null;
     }
+
+    @Override
+    public Message findOne(int mid) {
+        Connection con = null;
+        PreparedStatement pstm = null;
+        ResultSet rs = null;
+        try {
+            con = JDBCUtils.getConnection();
+            String sql = "SELECT * FROM message WHERE id = ?";
+            pstm = con.prepareStatement(sql);
+            pstm.setInt(1, mid);
+            rs = pstm.executeQuery();
+            if (rs.next()) {
+                return new Message(rs.getInt("id"), rs.getInt("user_id"), rs.getString("username"), rs.getString("title"), rs.getString("content"), rs.getString("create_time"));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.release(rs, pstm, con);
+        }
+        return null;
+    }
 }
