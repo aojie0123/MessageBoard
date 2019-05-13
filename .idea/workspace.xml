@@ -6,64 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed786c9-d677-476f-a5e3-8109828a0b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/dao/PageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/dao/impl/PageDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/domain/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/service/PageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/service/impl/PageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/utils/CaptcahCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/code.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/MessageDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/impl/MessageDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/impl/MessageDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/impl/MessageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/AddEditMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/AddEditMessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/MessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/MessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/RegistServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/action/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/filter/UserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/WEB-INF/classes/com/imooc/web/filter/UserFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/edit_message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/edit_message.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/message_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/message_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/my_message_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/my_message_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MessageBoard_war_exploded/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/MessageDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/impl/MessageDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/impl/MessageDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/impl/MessageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/AddEditMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/AddEditMessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/MessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/MessageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/RegistServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/action/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/filter/UserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MessageBoard/com/imooc/web/filter/UserFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/MessageDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/impl/MessageDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/impl/MessageDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/AddEditMessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/AddEditMessageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/edit_message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/edit_message.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/message_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/message_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/my_message_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/my_message_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/reg.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="aed786c9-d677-476f-a5e3-8109828a0b30" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/message_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+            <state relative-caret-position="602">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="206">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -106,6 +49,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -137,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/com/imooc/service/impl/MessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/MessageDao.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/MessageDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/utils/CaptcahCodeUtils.java" />
         <option value="$PROJECT_DIR$/web/code.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
@@ -145,8 +92,9 @@
         <option value="$PROJECT_DIR$/web/reg.jsp" />
         <option value="$PROJECT_DIR$/web/my_message_list.jsp" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/RegistServlet.java" />
-        <option value="$PROJECT_DIR$/web/message_list.jsp" />
         <option value="$PROJECT_DIR$/src/com/imooc/domain/Page.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java" />
+        <option value="$PROJECT_DIR$/web/message_list.jsp" />
       </list>
     </option>
   </component>
@@ -420,7 +368,7 @@
       <workItem from="1557595283756" duration="440000" />
       <workItem from="1557627067792" duration="1722000" />
       <workItem from="1557662205976" duration="3670000" />
-      <workItem from="1557711154620" duration="12166000" />
+      <workItem from="1557711154620" duration="12450000" />
     </task>
     <task id="LOCAL-00001" summary="new Project">
       <created>1557318906327</created>
@@ -464,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557711006675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/aojie0123/MessageBoard&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1557733943526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557733943526</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,7 +452,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60925000" />
+    <option name="totallyTimeSpent" value="61209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +478,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39914164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
@@ -784,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/message_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/domain/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -832,8 +780,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/MessageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="206">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
         </state>
       </provider>
     </entry>

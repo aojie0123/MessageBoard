@@ -56,20 +56,6 @@
         </section>
         <section class="page">
             <div class="container">
-                <ul>
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">上一页</a></li>
-                    <li><span class="first-page">1</span></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">…</a></li>
-                    <li><a href="#">98</a></li>
-                    <li><a href="#">99</a></li>
-                    <li><a href="#">下一页</a></li>
-                    <li><a href="#">尾页</a></li>
-                </ul>
            <!-- 分页内容参考视频中老师源码 -->
             </div>
         </section>
