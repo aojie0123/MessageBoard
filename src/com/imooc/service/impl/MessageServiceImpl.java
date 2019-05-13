@@ -26,4 +26,16 @@ public class MessageServiceImpl implements MessageService {
         MessageDao messageDao = new MessageDaoImpl();
         return messageDao.findOne(mid);
     }
+
+    @Override
+    public void update(Message message) {
+        MessageDao messageDao = new MessageDaoImpl();
+        messageDao.update(message);
+    }
+
+    @Override
+    public void delete(int id) {
+        MessageDao messageDao = new MessageDaoImpl();
+        messageDao.delete(id);
+    }
 }

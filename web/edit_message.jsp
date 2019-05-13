@@ -11,7 +11,7 @@
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/MessageServlet?method=showAllMsg">
                         慕课网留言板
                     </a>
                 </div>
@@ -25,7 +25,7 @@
             <div class="page-header">
                 <h3><small>修改留言</small></h3>
             </div>
-            <form class="form-horizontal" action="${pageContext.request.contextPath}/AddEditMessageServlet?method=save" method="post">
+            <form class="form-horizontal" action="${pageContext.request.contextPath}/AddEditMessageServlet?method=update" method="post">
                 <input type="hidden" name="id" value="${message.mid}">
                 <div class="form-group">
                     <label for="inputTitle" class="col-sm-2 control-label">标题 ：</label>

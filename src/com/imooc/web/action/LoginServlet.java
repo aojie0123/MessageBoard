@@ -6,6 +6,7 @@ import com.imooc.service.MessageService;
 import com.imooc.service.UserService;
 import com.imooc.service.impl.MessageServiceImpl;
 import com.imooc.service.impl.UserServiceImpl;
+import com.imooc.utils.CaptcahCodeUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -34,6 +35,7 @@ public class LoginServlet extends HttpServlet {
     private void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        String code = request.getParameter("verificationCode");
 
         User user = new User();
         user.setUsername(username);
@@ -48,6 +50,9 @@ public class LoginServlet extends HttpServlet {
             request.getRequestDispatcher("/login.jsp").forward(request, response);
         } else if (password == null) {
             request.setAttribute("msg", "密码为空");
+            request.getRequestDispatcher("/login.jsp").forward(request, response);
+        } else if (!code.equals(request.getSession().getAttribute("code"))) {
+            request.setAttribute("msg", "验证码错误");
             request.getRequestDispatcher("/login.jsp").forward(request, response);
         } else {
             User loginUser = userService.login(user);

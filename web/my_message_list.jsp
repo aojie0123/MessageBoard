@@ -24,7 +24,7 @@
                 <%} else { %>
                     <nav>
                         <a href="${pageContext.request.contextPath}/LoginServlet?method=showPage">登录</a>
-                        <a href="${pageContext.request.contextPath}/RegistServlet?method=showPage">注册</a>
+                        <a href="${pageContext.request.contextPath}/RegistServlet?type=showPage">注册</a>
                     </nav>
                 <% } %>
             </div>
@@ -57,7 +57,7 @@
                                         <a class="btn btn-primary" type="submit" href="${pageContext.request.contextPath}/MessageServlet?method=edit&mid=${message.mid}" style="margin-right: 5px;">修改</a>
                                 </td>
                                 <td>
-                                        <button class="btn btn-primary" type="submit">删除</button>                                  
+                                        <button class="btn btn-primary" type="submit" onclick="location.href='${pageContext.request.contextPath}/MessageServlet?method=delete&mid=${message.mid}'">删除</button>
                                 </td></tr>
                             </table>
                         </div>

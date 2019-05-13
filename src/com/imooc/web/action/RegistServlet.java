@@ -37,8 +37,15 @@ public class RegistServlet extends HttpServlet {
         String name = request.getParameter("username");
         String password = request.getParameter("password");
         String confirmPass = request.getParameter("confirmPass");
+        String code = request.getParameter("verificationCode");
 
-        if (confirmPass.equals(password)) {
+        if (!confirmPass.equals(password)) {
+            request.setAttribute("msg", "两次密码不同，请重新输入密码");
+            request.getRequestDispatcher("/reg.jsp").forward(request, response);
+        } else if (!code.equals(request.getSession().getAttribute("code"))) {
+            request.setAttribute("msg", "验证码错误");
+            request.getRequestDispatcher("/reg.jsp").forward(request, response);
+        } else {
             UserService userService = new UserServiceImpl();
             String msg = null;
             User user = new User();
@@ -48,9 +55,6 @@ public class RegistServlet extends HttpServlet {
             if ("success".equals(msg)) {
                 request.getRequestDispatcher("/LoginServlet?method=showPage").forward(request, response);
             }
-        } else {
-            request.setAttribute("msg", "两次密码不同，请重新输入密码");
-            request.getRequestDispatcher("/reg.jsp").forward(request, response);
         }
     }
 

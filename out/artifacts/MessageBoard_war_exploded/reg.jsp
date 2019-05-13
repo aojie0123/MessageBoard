@@ -8,7 +8,7 @@
         <script type="text/javascript">
             function changeImg() {
                 var img = document.getElementById("img");
-                img.src = "/verificationCode.do?date=" + new Date();
+                img.src = "code.jsp?date=" + new Date().getTime();
             }
 
             
@@ -38,9 +38,9 @@
                 <p></p>
             </div>
             <div class="idcode">
-                <input type="text" id="verificationCode" placeholder="请输入验证码">
+                <input type="text" id="verificationCode" name="verificationCode" placeholder="请输入验证码">
                 <a href='#' onclick="javascript:changeImg()">&nbsp;&nbsp;&nbsp;&nbsp;换一张</a>
-                <span><img id="img" src="/verificationCode.do"/></span>
+                <span><img id="img" src="code.jsp"/></span>
                 <div class="clear"></div>
             </div>
             <div class="btn-red">

@@ -29,7 +29,17 @@ public class MessageServlet extends HttpServlet {
             getMyMessage(request, response);
         } else if (method.equals("edit")) {
             edit(request, response);
+        } else if (method.equals("delete")) {
+            delete(request, response);
         }
+    }
+
+    private void delete(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        int id = Integer.parseInt(request.getParameter("mid"));
+
+        MessageService messageService = new MessageServiceImpl();
+        messageService.delete(id);
+        response.sendRedirect(request.getContextPath() + "/MessageServlet?method=getMyMessage");
     }
 
     private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

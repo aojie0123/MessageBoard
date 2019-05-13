@@ -11,4 +11,8 @@ public interface MessageService {
     List<Message> findAllMessage();
 
     Message findOne(int mid);
+
+    void update(Message message);
+
+    void delete(int id);
 }

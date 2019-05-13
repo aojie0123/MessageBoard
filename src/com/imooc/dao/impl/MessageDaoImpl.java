@@ -80,4 +80,40 @@ public class MessageDaoImpl implements MessageDao {
         }
         return null;
     }
+
+    @Override
+    public void update(Message message) {
+        Connection con = null;
+        PreparedStatement pstm = null;
+        try {
+            con = JDBCUtils.getConnection();
+            String sql = "UPDATE message SET title = ?, content = ? WHERE id = ?";
+            pstm = con.prepareStatement(sql);
+            pstm.setString(1, message.getTitle());
+            pstm.setString(2, message.getContent());
+            pstm.setInt(3, message.getMid());
+            pstm.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.release(pstm, con);
+        }
+    }
+
+    @Override
+    public void delete(int id) {
+        Connection con = null;
+        PreparedStatement pstm = null;
+        try {
+            con = JDBCUtils.getConnection();
+            String sql = "DELETE FROM message WHERE id = ?";
+            pstm = con.prepareStatement(sql);
+            pstm.setInt(1, id);
+            pstm.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.release(pstm, con);
+        }
+    }
 }
