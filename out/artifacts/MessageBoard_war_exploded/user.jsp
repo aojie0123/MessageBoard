@@ -10,7 +10,7 @@
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/message/list.do">
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/MessageServlet?method=showAllMsg">
                         返回留言板
                     </a>
                 </div>
@@ -24,18 +24,18 @@
             <div class="page-header">
                 <h3><small>个人信息</small></h3>
             </div>
-             <form class="form-horizontal" action="" method="post">
-               
+             <form class="form-horizontal" action="${pageContext.request.contextPath}/UserServlet?method=editInformation" method="post">
+                 <input type="hidden" name="uid" value="${user.uid}">
                 <div class="form-group">
                     <label for="username" class="col-sm-2 control-label">用户 ：</label>
                     <div class="col-sm-6">
-                        <input username="username" class="form-control" id="username" value="" readonly>
+                        <input name="username" class="form-control" id="username" value="${user.username}" readonly>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-2 control-label">密码 ：</label>
                     <div class="col-sm-6">
-                        <input username="password" class="form-control" id="password" value="">
+                        <input name="password" class="form-control" id="password" value="${user.password}">
                     </div>
                 </div>
                

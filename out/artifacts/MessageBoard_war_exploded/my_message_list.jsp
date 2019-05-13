@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,17 +14,17 @@
     <body>
         <header>
             <div class="container">
-                <% if (null != request.getSession().getAttribute("user")) {%>
+                <% if (null != request.getSession().getAttribute("loginUser")) {%>
                     <nav>
-                        <a href="">我的留言</a>
+                        <a href="${pageContext.request.contextPath}/MessageServlet?method=getMyMessage">我的留言</a>
                     </nav>
                     <nav>
-                        <a href="">我的信息</a>
+                        <a href="#">我的信息</a>
                     </nav>
                 <%} else { %>
                     <nav>
-                        <a href="">登录</a>
-                        <a href="">注册</a>
+                        <a href="${pageContext.request.contextPath}/LoginServlet?method=showPage">登录</a>
+                        <a href="${pageContext.request.contextPath}/RegistServlet?method=showPage">注册</a>
                     </nav>
                 <% } %>
             </div>
@@ -39,17 +39,17 @@
         </section>
         <section class="main">
             <div class="container">
-                
+                <c:forEach var="message" items="${msgList}">
                     <div class="alt-item">
                         <div class="alt-head">
                             <div class="alt-info">
-                                <span>作者：<a href=""></a></span>
-                                <span>时间：</span>
+                                <span>作者：<a href="">${message.username}</a></span>
+                                <span>时间：${message.creatTime}</span>
                             </div>
                         </div>
                         <div class="alt-content">
-                            <h3>慕课网好</h3>
-                            <p>慕课网好</p>
+                            <h3>${message.title}</h3>
+                            <p>${message.content}</p>
                         </div>
                         <div align="right">
                             <table>
@@ -62,7 +62,7 @@
                             </table>
                         </div>
                     </div>
-             
+                </c:forEach>
             </div>
         </section>
         <section class="page">

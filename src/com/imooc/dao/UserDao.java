@@ -8,4 +8,8 @@ public interface UserDao {
     boolean isRegisted(User user);
 
     User login(User user);
+
+    void editInformation(User user);
+
+    User findUser(User user);
 }

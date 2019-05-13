@@ -1,7 +1,10 @@
 package com.imooc.web.action;
 
+import com.imooc.domain.Message;
 import com.imooc.domain.User;
+import com.imooc.service.MessageService;
 import com.imooc.service.UserService;
+import com.imooc.service.impl.MessageServiceImpl;
 import com.imooc.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
@@ -10,6 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @WebServlet(name = "LoginServlet", urlPatterns = {"/LoginServlet"})
 public class LoginServlet extends HttpServlet {
@@ -35,6 +40,9 @@ public class LoginServlet extends HttpServlet {
         user.setPassword(password);
 
         UserService userService = new UserServiceImpl();
+        MessageService messageService = new MessageServiceImpl();
+
+        List<Message> msgList = new ArrayList<>();
         if (username == null) {
             request.setAttribute("msg", "用户名为空");
             request.getRequestDispatcher("/login.jsp").forward(request, response);
@@ -44,8 +52,11 @@ public class LoginServlet extends HttpServlet {
         } else {
             User loginUser = userService.login(user);
             if (loginUser != null) {
+                msgList = messageService.findAllMessage();
+
+                request.setAttribute("msgList", msgList);
                 request.getSession().setAttribute("loginUser", loginUser);
-                response.sendRedirect(request.getContextPath() + "/message_list.jsp");
+                request.getRequestDispatcher("/message_list.jsp").forward(request, response);
             } else {
                 request.setAttribute("msg", "用户名密码错误");
                 request.getRequestDispatcher("/login.jsp").forward(request, response);
